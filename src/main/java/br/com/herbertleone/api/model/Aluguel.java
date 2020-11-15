@@ -1,6 +1,7 @@
 package br.com.herbertleone.api.model;
 import javax.persistence.*;
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.Objects;
@@ -48,7 +49,8 @@ public class Aluguel {
 	}
 
 	public void setValorPago(BigDecimal valorPago) {
-		if(valorPago.doubleValue() == this.valorASerPago().doubleValue()){
+		System.out.println(valorPago);
+		if(valorPago.doubleValue() != this.valorASerPago().doubleValue()){
 			throw new IllegalArgumentException("O valor pago deve ser calculado a partir do valor do aluguel e da multa");
 		}
 		this.valorPago = valorPago;
@@ -72,17 +74,16 @@ public class Aluguel {
 
 	public BigDecimal valorASerPago(){
 		Period periodo = Period.between(this.getDataVencimento(), this.getDataPagamento());
-
 		if(periodo.getDays() > 0){
 			BigDecimal valorAPagar = this.locacao.getPercentualMulta().multiply(new BigDecimal(periodo.getDays()));
 			valorAPagar = this.locacao.getValorAluguel().add(valorAPagar);
-			return valorAPagar;
+			return valorAPagar.setScale(2, RoundingMode.HALF_EVEN);
 		}else if(periodo.getDays() > 242){
 			BigDecimal valorAPagar = this.locacao.getPercentualMulta().multiply(new BigDecimal(242));
 			valorAPagar = this.locacao.getValorAluguel().add(valorAPagar);
-			return valorAPagar;
+			return valorAPagar.setScale(2, RoundingMode.HALF_EVEN);
 		}else{
-			return this.locacao.getValorAluguel();
+			return this.locacao.getValorAluguel().setScale(2, RoundingMode.HALF_EVEN);
 		}
 	}
 

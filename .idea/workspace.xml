@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb278ca7-6abd-4fe2-b71f-466c850010a6" name="Default Changelist" comment="" />
+    <list default="true" id="cb278ca7-6abd-4fe2-b71f-466c850010a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/herbertleone/api/model/Aluguel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/herbertleone/api/model/Aluguel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/herbertleone/testes/repository/AluguelRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/herbertleone/testes/repository/AluguelRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/herbertleone/api/model/Aluguel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/herbertleone/api/model/Aluguel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/herbertleone/testes/repository/AluguelRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/herbertleone/testes/repository/AluguelRepositoryTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kIkAm2ucMb6IRr0aYTh1vVubw1" />
   <component name="ProjectViewState">
@@ -15,7 +27,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/META-INF" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -29,9 +42,9 @@
       <recent name="C:\Users\Herbert\Documents\Development\Java\Sistema de Imobiliária\src\main\java\br\com\herbertleone\api\model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AluguelRepositoryTest.deveRetornarValorSemAcrescimoDeMultas">
+  <component name="RunManager" selected="JUnit.AluguelRepositoryTest.deveLancarUmaExcecaoSeOValorPagoForMenorQueOValorDoAluguel">
     <configuration name="AluguelRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sistema de Imobiliária" />
+      <module name="Sistema-de-Imobiliaria" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.herbertleone.testes.repository.*" />
@@ -46,7 +59,7 @@
       </method>
     </configuration>
     <configuration name="AluguelRepositoryTest.deveLancarUmaExcecaoSeOValorPagoForMenorQueOValorDoAluguel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sistema de Imobiliária" />
+      <module name="Sistema-de-Imobiliaria" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.herbertleone.testes.repository.*" />
@@ -62,7 +75,7 @@
       </method>
     </configuration>
     <configuration name="AluguelRepositoryTest.deveRecuperarUmaListaComTodosOsAlugueisPagosComAtrasoNaDataDeVencimentoDeUmCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sistema de Imobiliária" />
+      <module name="Sistema-de-Imobiliaria" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.herbertleone.testes.repository.*" />
@@ -78,7 +91,7 @@
       </method>
     </configuration>
     <configuration name="AluguelRepositoryTest.deveRecuperarUmaListaComTodosOsAlugueisPagosDeUmCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sistema de Imobiliária" />
+      <module name="Sistema-de-Imobiliaria" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.herbertleone.testes.repository.*" />
@@ -93,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AluguelRepositoryTest.deveRetornarValorSemAcrescimoDeMultas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sistema de Imobiliária" />
+    <configuration name="LocacaoRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sistema-de-Imobiliaria" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.herbertleone.testes.repository.*" />
@@ -102,20 +115,19 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.herbertleone.testes.repository" />
-      <option name="MAIN_CLASS_NAME" value="br.com.herbertleone.testes.repository.AluguelRepositoryTest" />
-      <option name="METHOD_NAME" value="deveRetornarValorSemAcrescimoDeMultas" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="br.com.herbertleone.testes.repository.LocacaoRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AluguelRepositoryTest.deveRetornarValorSemAcrescimoDeMultas" />
-        <item itemvalue="JUnit.AluguelRepositoryTest.deveRecuperarUmaListaComTodosOsAlugueisPagosDeUmCliente" />
         <item itemvalue="JUnit.AluguelRepositoryTest.deveLancarUmaExcecaoSeOValorPagoForMenorQueOValorDoAluguel" />
-        <item itemvalue="JUnit.AluguelRepositoryTest.deveRecuperarUmaListaComTodosOsAlugueisPagosComAtrasoNaDataDeVencimentoDeUmCliente" />
         <item itemvalue="JUnit.AluguelRepositoryTest" />
+        <item itemvalue="JUnit.AluguelRepositoryTest.deveRecuperarUmaListaComTodosOsAlugueisPagosDeUmCliente" />
+        <item itemvalue="JUnit.AluguelRepositoryTest.deveRecuperarUmaListaComTodosOsAlugueisPagosComAtrasoNaDataDeVencimentoDeUmCliente" />
+        <item itemvalue="JUnit.LocacaoRepositoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -133,26 +145,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="280" y="2" key="#AluguelRepositoryTest.deveLancarUmaExcecaoSeOValorPagoForMenorQueOValorDoAluguel" timestamp="1605404550124">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="280" y="2" key="#AluguelRepositoryTest.deveLancarUmaExcecaoSeOValorPagoForMenorQueOValorDoAluguel/0.0.1366.728@0.0.1366.728" timestamp="1605404550124" />
+    <state x="280" y="2" key="#AluguelRepositoryTest.deveRetornarValorSemAcrescimoDeMultas" timestamp="1605404543637">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="280" y="2" key="#AluguelRepositoryTest.deveRetornarValorSemAcrescimoDeMultas/0.0.1366.728@0.0.1366.728" timestamp="1605404543637" />
     <state x="275" y="22" key="#Project_Structure" timestamp="1605395363164">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1605395363164" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1605404046874">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605404584993">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605404046874" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1605404046874">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1605404584993" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1605406240149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605404046874" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1605404046874">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605406240149" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1605406240149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605404046874" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1605404046874">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605406240149" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1605406240149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605404046874" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605406240149" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1605406240149">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605406240149" />
     <state x="312" y="62" width="737" height="606" key="find.popup" timestamp="1605398865239">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -7,7 +7,6 @@ import br.com.herbertleone.testes.builder.LocacaoBuilder;
 import br.com.herbertleone.api.model.Aluguel;
 import br.com.herbertleone.api.model.Locacao;
 import org.junit.jupiter.api.*;
-
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.NoResultException;
@@ -96,11 +95,11 @@ public class AluguelRepositoryTest {
     public void deveRecuperarUmaListaComTodosOsAlugueisPagosDeUmCliente() {
 
 
-        Aluguel aluguel01 = AluguelBuilder.umAluguel().comDataDeVencimento(LocalDate.of(2020, 11, 30)).comValorpago(new BigDecimal(5000)).constroi();
+        Aluguel aluguel01 = AluguelBuilder.umAluguel().comDataDeVencimento(LocalDate.of(2020, 11, 30)).comDataDePagamento(LocalDate.of(2020, 11, 30)).comValorpago(new BigDecimal(5000)).constroi();
 
-        Aluguel aluguel02 = AluguelBuilder.umAluguel().comDataDeVencimento(LocalDate.of(2020, 11, 25)).comValorpago(new BigDecimal(5000)).constroi();
+        Aluguel aluguel02 = AluguelBuilder.umAluguel().comDataDeVencimento(LocalDate.of(2020, 11, 25)).comDataDePagamento(LocalDate.of(2020, 11, 30)).comValorpago(new BigDecimal(5001.65)).constroi();
 
-        Aluguel aluguel03 = AluguelBuilder.umAluguel().comDataDeVencimento(LocalDate.of(2020, 11, 20)).constroi();
+        Aluguel aluguel03 = AluguelBuilder.umAluguel().comDataDeVencimento(LocalDate.of(2020, 11, 20)).comDataDePagamento(LocalDate.of(2020, 11, 30)).constroi();
 
         alugueis.salva(aluguel01);
         alugueis.salva(aluguel02);
@@ -121,11 +120,11 @@ public class AluguelRepositoryTest {
     public void deveRecuperarUmaListaComTodosOsAlugueisPagosComAtrasoNaDataDeVencimentoDeUmCliente() {
 
 
-        Aluguel aluguel01 = AluguelBuilder.umAluguel().comDataDeVencimento(LocalDate.of(2020, 11, 30)).comDataDePagamento(LocalDate.of(2020, 12, 25)).comValorpago(new BigDecimal(5000)).constroi();
+        Aluguel aluguel01 = AluguelBuilder.umAluguel().comDataDeVencimento(LocalDate.of(2020, 11, 30)).comDataDePagamento(LocalDate.of(2020, 12, 25)).comValorpago(new BigDecimal(5008.25)).constroi();
 
         Aluguel aluguel02 = AluguelBuilder.umAluguel().comDataDeVencimento(LocalDate.of(2020, 11, 25)).comDataDePagamento(LocalDate.of(2020, 11, 25)).comValorpago(new BigDecimal(5000)).constroi();
 
-        Aluguel aluguel03 = AluguelBuilder.umAluguel().comDataDeVencimento(LocalDate.of(2020, 11, 20)).comDataDePagamento(LocalDate.of(2020, 10, 25)).constroi();
+        Aluguel aluguel03 = AluguelBuilder.umAluguel().comDataDeVencimento(LocalDate.of(2020, 11, 20)).comDataDePagamento(LocalDate.of(2020, 10, 25)).comValorpago(new BigDecimal(5000)).constroi();
 
         alugueis.salva(aluguel01);
         alugueis.salva(aluguel02);
@@ -145,7 +144,7 @@ public class AluguelRepositoryTest {
     @Test
     public void deveLancarUmaExcecaoSeOValorPagoForMenorQueOValorDoAluguel(){
         Locacao locacao = LocacaoBuilder.umaLocacao().comValorDeAluguel(new BigDecimal(2000)).constroi();
-        Aluguel aluguel = new Aluguel();
+        Aluguel aluguel = AluguelBuilder.umAluguel().comDataDeVencimento(LocalDate.of(2020, 11, 30)).comDataDePagamento(LocalDate.of(2020, 11, 30)).constroi();
         aluguel.setLocacao(locacao);
         Assertions.assertThrows(IllegalArgumentException.class,
                 () -> aluguel.setValorPago(new BigDecimal(1800)),
@@ -158,7 +157,7 @@ public class AluguelRepositoryTest {
         Locacao locacao = LocacaoBuilder.umaLocacao().comValorDeAluguel(new BigDecimal(2000)).constroi();
 
         Aluguel aluguel = AluguelBuilder.umAluguel().comDataDeVencimento(LocalDate.of(2020, 11, 30)).comDataDePagamento(LocalDate.of(2020, 11, 30)).constroi();
-
+        aluguel.setLocacao(locacao);
         Assertions.assertDoesNotThrow(() -> aluguel.setValorPago(new BigDecimal(2000)));
     }
 }
