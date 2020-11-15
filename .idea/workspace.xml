@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb278ca7-6abd-4fe2-b71f-466c850010a6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1kIkAm2ucMb6IRr0aYTh1vVubw1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/META-INF" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Herbert\Documents\Development\Java\Sistema de Imobiliária\src\main\resources\META-INF" />
+      <recent name="C:\Users\Herbert\Documents\Development\Java\Sistema de Imobiliária\src\test\java\br\com\herbertleone\testes\repository" />
+      <recent name="C:\Users\Herbert\Documents\Development\Java\Sistema de Imobiliária\src\test\java\br\com\herbertleone\testes\builder" />
+      <recent name="C:\Users\Herbert\Documents\Development\Java\Sistema de Imobiliária\src\main\java\br\com\herbertleone\api\repository" />
+      <recent name="C:\Users\Herbert\Documents\Development\Java\Sistema de Imobiliária\src\main\java\br\com\herbertleone\api\model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AluguelRepositoryTest.deveRetornarValorSemAcrescimoDeMultas">
+    <configuration name="AluguelRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sistema de Imobiliária" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.herbertleone.testes.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.herbertleone.testes.repository" />
+      <option name="MAIN_CLASS_NAME" value="br.com.herbertleone.testes.repository.AluguelRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AluguelRepositoryTest.deveLancarUmaExcecaoSeOValorPagoForMenorQueOValorDoAluguel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sistema de Imobiliária" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.herbertleone.testes.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.herbertleone.testes.repository" />
+      <option name="MAIN_CLASS_NAME" value="br.com.herbertleone.testes.repository.AluguelRepositoryTest" />
+      <option name="METHOD_NAME" value="deveLancarUmaExcecaoSeOValorPagoForMenorQueOValorDoAluguel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AluguelRepositoryTest.deveRecuperarUmaListaComTodosOsAlugueisPagosComAtrasoNaDataDeVencimentoDeUmCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sistema de Imobiliária" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.herbertleone.testes.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.herbertleone.testes.repository" />
+      <option name="MAIN_CLASS_NAME" value="br.com.herbertleone.testes.repository.AluguelRepositoryTest" />
+      <option name="METHOD_NAME" value="deveRecuperarUmaListaComTodosOsAlugueisPagosComAtrasoNaDataDeVencimentoDeUmCliente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AluguelRepositoryTest.deveRecuperarUmaListaComTodosOsAlugueisPagosDeUmCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sistema de Imobiliária" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.herbertleone.testes.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.herbertleone.testes.repository" />
+      <option name="MAIN_CLASS_NAME" value="br.com.herbertleone.testes.repository.AluguelRepositoryTest" />
+      <option name="METHOD_NAME" value="deveRecuperarUmaListaComTodosOsAlugueisPagosDeUmCliente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AluguelRepositoryTest.deveRetornarValorSemAcrescimoDeMultas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sistema de Imobiliária" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.herbertleone.testes.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.herbertleone.testes.repository" />
+      <option name="MAIN_CLASS_NAME" value="br.com.herbertleone.testes.repository.AluguelRepositoryTest" />
+      <option name="METHOD_NAME" value="deveRetornarValorSemAcrescimoDeMultas" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AluguelRepositoryTest.deveRetornarValorSemAcrescimoDeMultas" />
+        <item itemvalue="JUnit.AluguelRepositoryTest.deveRecuperarUmaListaComTodosOsAlugueisPagosDeUmCliente" />
+        <item itemvalue="JUnit.AluguelRepositoryTest.deveLancarUmaExcecaoSeOValorPagoForMenorQueOValorDoAluguel" />
+        <item itemvalue="JUnit.AluguelRepositoryTest.deveRecuperarUmaListaComTodosOsAlugueisPagosComAtrasoNaDataDeVencimentoDeUmCliente" />
+        <item itemvalue="JUnit.AluguelRepositoryTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb278ca7-6abd-4fe2-b71f-466c850010a6" name="Default Changelist" comment="" />
+      <created>1605395351776</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605395351776</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Project_Structure" timestamp="1605395363164">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1605395363164" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1605404046874">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605404046874" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1605404046874">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605404046874" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1605404046874">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605404046874" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1605404046874">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605404046874" />
+    <state x="312" y="62" width="737" height="606" key="find.popup" timestamp="1605398865239">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="312" y="62" width="737" height="606" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1605398865239" />
+  </component>
+</project>
