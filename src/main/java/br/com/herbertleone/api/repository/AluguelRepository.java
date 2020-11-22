@@ -17,4 +17,6 @@ public interface AluguelRepository {
 	List<Aluguel> recuperarAlugueisPagosPor(String nomeCliente);
 
 	List<Aluguel> recuperarAlugueisPagosEmAtrasoNaDataDeVencimentoPor(String nomeCliente);
+
+	List<Aluguel> recuperarAlugueisPagosEmAtraso();
 }

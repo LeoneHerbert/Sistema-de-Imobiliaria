@@ -49,4 +49,10 @@ public class AluguelRepositoryImpl implements AluguelRepository {
 				.setParameter("pNomeCliente", nomeCliente)
 				.getResultList();
 	}
+
+	@Override
+	public List<Aluguel> recuperarAlugueisPagosEmAtraso() {
+		return manager.createQuery("SELECT aluguel FROM Aluguel aluguel WHERE data_pagamento > data_vencimento", Aluguel.class)
+				.getResultList();
+	}
 }

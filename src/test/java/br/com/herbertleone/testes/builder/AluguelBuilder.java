@@ -36,6 +36,11 @@ public class AluguelBuilder {
 		return this;
 	}
 
+	public AluguelBuilder comLocacao(Locacao locacao){
+		aluguel.setLocacao(locacao);
+		return this;
+	}
+
 	public AluguelBuilder comValorpago(BigDecimal valorPago) {
 		aluguel.setValorPago(valorPago);
 		return this;

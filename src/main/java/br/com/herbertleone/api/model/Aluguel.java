@@ -49,7 +49,6 @@ public class Aluguel {
 	}
 
 	public void setValorPago(BigDecimal valorPago) {
-		System.out.println(valorPago);
 		if(valorPago.doubleValue() != this.valorASerPago().doubleValue()){
 			throw new IllegalArgumentException("O valor pago deve ser calculado a partir do valor do aluguel e da multa");
 		}
